@@ -4,7 +4,7 @@
 
 Ce projet Flutter propose une application de connexion avec validation des champs, navigation conditionnelle et affichage des informations de l'utilisateur connecté.
 
-## 🎯 Objectifs
+## Objectifs
 
 - Créer une interface de connexion avec validation des champs email et mot de passe.
 - Valider les identifiants à partir d'une base locale (Map).
@@ -18,7 +18,7 @@ Ce projet Flutter propose une application de connexion avec validation des champ
 - `screens/profile_screen.dart` : Écran du profil utilisateur.
 - `widgets/` : Conteneur suggéré pour les composants réutilisables (non utilisé ici mais recommandé pour évoluer).
 
-## ✨ Fonctionnalités
+## Fonctionnalités
 
 - Formulaire de connexion avec validation :
     - Email valide requis.
@@ -28,21 +28,21 @@ Ce projet Flutter propose une application de connexion avec validation des champ
 - Données du profil affichées de manière structurée.
 - Déconnexion avec retour à l'écran de connexion.
 
-## ✅ Identifiants de Test
+## Identifiants de Test
 
 | Email               | Mot de passe | Prénom | Nom  | Rôle  |
 |--------------------|--------------|--------|------|-------|
 | user@example.com   | userpass     | Jane   | Doe  | User  |
 | admin@example.com  | adminpass    | Admin  | User | Admin |
 
-## 🛠️ Lancer le Projet
+## Lancer le Projet
 
 1. Ouvrir Android Studio.
 2. Créer un projet Flutter nommé `login_app`.
 3. Copier les fichiers `main.dart` et `profile_screen.dart` dans le répertoire `lib/`.
 4. Exécuter l'application sur un simulateur ou un appareil physique.
 
-## 🔐 Bonnes Pratiques
+## Bonnes Pratiques
 
 - Ne jamais stocker les mots de passe en clair en production.
 - Séparer les écrans dans des fichiers distincts pour faciliter la maintenance.
